@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
-
+// smallText, midText, largeText1, image, product, buttonText, desc | schemas/banner.js
 const HeroBanner = ({ heroBanner }) => {
   return (
     <div className="hero-banner-container">
