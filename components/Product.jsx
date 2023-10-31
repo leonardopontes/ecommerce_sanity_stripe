@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
-
+// image, name, slug, price | schemas/product.js
 const Product = ({ product: { image, name, slug, price } }) => {
   return (
     <div>
